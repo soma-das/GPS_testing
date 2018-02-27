@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="GPS Sensor Simulator" 
+    author="Linda Ariani Gunawan" 
+    provider="Bitreactive AS" 
+    uuid="_-9ysgRLqEeexO_imoN7_0Q" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <resource path="files/route.kml"/>
+        <package name="com.bitreactive.examples.amqp.gpssensorsimulator"/>
+        <package name="de.micromata.opengis.kml.v_2_2_0"/>
+        <package name="gps.testing.gpssensorsimulator"/>
+        <block name="b0" uuid="_ke8w8MQ8EeK-QZxzrSNhXA"/>
+        <block name="b1" uuid="_vCXJcVYREd-4YqQXCGC3ew"/>
+    </required>
+</block>

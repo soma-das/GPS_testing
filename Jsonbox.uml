@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20110701" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:arctis="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:graphics="http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML" xsi:schemaLocation="http:///schemas/arctis/_WFTqUHjGEdyxtoUMycQn9Q/10 pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q http:///schemas/graphics/_gd9EwIuAEdytfOWtpACIqw/6 pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw">
+  <uml:Package xmi:id="_jD1L8BL-EeePFq2ayaIgqg" name="gps.testing">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_jD1L8RL-EeePFq2ayaIgqg" name="Json box" classifierBehavior="_jD1L8hL-EeePFq2ayaIgqg" node="_jD1L_RL-EeePFq2ayaIgqg _jD1L_hL-EeePFq2ayaIgqg _jD1MABL-EeePFq2ayaIgqg" group="_jD1L-hL-EeePFq2ayaIgqg" partition="_jD1L-hL-EeePFq2ayaIgqg">
+      <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_jD1L8hL-EeePFq2ayaIgqg" name="Json box">
+        <region xmi:id="_jD1L8xL-EeePFq2ayaIgqg" name="&lt;region>">
+          <transition xmi:id="_jD1L9BL-EeePFq2ayaIgqg" name="jsonStr / stop" source="_jD1L9RL-EeePFq2ayaIgqg" target="_jD1L9hL-EeePFq2ayaIgqg"/>
+          <subvertex xmi:type="uml:Pseudostate" xmi:id="_jD1L9RL-EeePFq2ayaIgqg" name="&lt;initial>"/>
+          <subvertex xmi:type="uml:FinalState" xmi:id="_jD1L9hL-EeePFq2ayaIgqg" name="&lt;final>"/>
+        </region>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_jD1L9xL-EeePFq2ayaIgqg" name="parameters"/>
+      <ownedParameter xmi:id="_jD1L-BL-EeePFq2ayaIgqg" name="jsonStr" type="_jD1MAhL-EeePFq2ayaIgqg"/>
+      <ownedParameter xmi:id="_jD1L-RL-EeePFq2ayaIgqg" name="stop" direction="out"/>
+      <edge xmi:type="uml:ObjectFlow" xmi:id="_jD1L-xL-EeePFq2ayaIgqg" name="e0" inPartition="_jD1L-hL-EeePFq2ayaIgqg" target="_jD1L_xL-EeePFq2ayaIgqg" source="_jD1L_RL-EeePFq2ayaIgqg"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_jD1L_BL-EeePFq2ayaIgqg" name="e1" inPartition="_jD1L-hL-EeePFq2ayaIgqg" target="_jD1MABL-EeePFq2ayaIgqg" source="_jD1L_hL-EeePFq2ayaIgqg"/>
+      <group xmi:type="uml:ActivityPartition" xmi:id="_jD1L-hL-EeePFq2ayaIgqg" name="main" node="_jD1L_RL-EeePFq2ayaIgqg _jD1L_hL-EeePFq2ayaIgqg _jD1L_xL-EeePFq2ayaIgqg _jD1MABL-EeePFq2ayaIgqg" edge="_jD1L-xL-EeePFq2ayaIgqg _jD1L_BL-EeePFq2ayaIgqg"/>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_jD1L_RL-EeePFq2ayaIgqg" name="jsonStr" outgoing="_jD1L-xL-EeePFq2ayaIgqg" inPartition="_jD1L-hL-EeePFq2ayaIgqg" type="_jD1MAhL-EeePFq2ayaIgqg" parameter="_jD1L-BL-EeePFq2ayaIgqg"/>
+      <node xmi:type="uml:CallOperationAction" xmi:id="_jD1L_hL-EeePFq2ayaIgqg" name="o0" outgoing="_jD1L_BL-EeePFq2ayaIgqg" inPartition="_jD1L-hL-EeePFq2ayaIgqg" operation="_jD1L9xL-EeePFq2ayaIgqg">
+        <argument xmi:id="_jD1L_xL-EeePFq2ayaIgqg" name="para" incoming="_jD1L-xL-EeePFq2ayaIgqg" inPartition="_jD1L-hL-EeePFq2ayaIgqg" type="_jD1MAhL-EeePFq2ayaIgqg"/>
+      </node>
+      <node xmi:type="uml:ActivityParameterNode" xmi:id="_jD1MABL-EeePFq2ayaIgqg" name="stop" incoming="_jD1L_BL-EeePFq2ayaIgqg" inPartition="_jD1L-hL-EeePFq2ayaIgqg" parameter="_jD1L-RL-EeePFq2ayaIgqg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jD1MARL-EeePFq2ayaIgqg" name="soma.test.amqp.OtherString"/>
+    <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_jD1MAhL-EeePFq2ayaIgqg" name="java.lang.String"/>
+    <profileApplication xmi:id="_jD1MAxL-EeePFq2ayaIgqg">
+      <eAnnotations xmi:id="_jD1MBBL-EeePFq2ayaIgqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_WFTqUXjGEdyxtoUMycQn9Q"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://ARCTIS_PROFILES/arctis.profile.uml#_rE77YK4iEduZSuTiwKs5Lw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_jD1MBRL-EeePFq2ayaIgqg">
+      <eAnnotations xmi:id="_jD1MBhL-EeePFq2ayaIgqg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_geG1wIuAEdytfOWtpACIqw"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://RAMSES_GRAPHIC_PROFILES/no.ntnu.item.ramses.graphicprofile.uml#_UEANMUVlEduH9aQE_pc66w"/>
+    </profileApplication>
+  </uml:Package>
+  <graphics:Shape xmi:id="_jD1MBxL-EeePFq2ayaIgqg" x="180" y="55" width="613" height="54" base_Element="_jD1L8RL-EeePFq2ayaIgqg"/>
+  <graphics:Shape xmi:id="_jD1MCBL-EeePFq2ayaIgqg" x="180" y="108" width="613" height="415" base_Element="_jD1L-hL-EeePFq2ayaIgqg"/>
+  <arctis:esm xmi:id="_jD1MCRL-EeePFq2ayaIgqg" base_StateMachine="_jD1L8hL-EeePFq2ayaIgqg"/>
+  <graphics:Shape xmi:id="_jD1MChL-EeePFq2ayaIgqg" x="90" y="252" base_Element="_jD1L_RL-EeePFq2ayaIgqg" orientation="west"/>
+  <graphics:Shape xmi:id="_jD1MCxL-EeePFq2ayaIgqg" x="288" y="234" width="199" height="55" base_Element="_jD1L_hL-EeePFq2ayaIgqg" orientation="east"/>
+  <graphics:Shape xmi:id="_jD1MDBL-EeePFq2ayaIgqg" x="792" y="252" base_Element="_jD1MABL-EeePFq2ayaIgqg" orientation="east"/>
+  <arctis:event xmi:id="_jD1MDRL-EeePFq2ayaIgqg" base_Transition="_jD1L9BL-EeePFq2ayaIgqg" triggers="_jD1L_RL-EeePFq2ayaIgqg" effects="_jD1MABL-EeePFq2ayaIgqg"/>
+</xmi:XMI>

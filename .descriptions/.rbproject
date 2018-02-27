@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project
+    title="gps.testing"
+    uuid="_8fihYBLqEeexO_imoN7_0Q"
+    version="1.1.0"
+    purpose="Testing GPS in a project."
+    >
+    <dependencies>
+        <dependency name="com.bitreactive.examples.amqp" uuid="_6v92MOkwEeSNq-4fvozafQ" version="1.0.0"/>
+        <dependency name="com.bitreactive.library.amqp" uuid="_ZNMv8OjJEeSNq-4fvozafQ" version="1.1.0"/>
+        <dependency name="com.bitreactive.library.buffering" uuid="_oelmQPDwEeCxK4vi80n1Xg" version="3.12.1" indirect="true"/>
+        <dependency name="com.bitreactive.library.gson" uuid="_bCjFUFtTEeGtaPY7WHS-jQ" version="1.6.0"/>
+        <dependency name="com.bitreactive.library.kml" uuid="_yLO88MRLEeK-QZxzrSNhXA" version="1.3.2"/>
+        <dependency name="com.bitreactive.library.properties" uuid="_YIo7QKWJEeGtcaXYz8RSig" version="1.3.2"/>
+        <dependency name="com.bitreactive.library.timers" uuid="_b0djMBzFEeGAXOPaKszhRg" version="1.6.1"/>
+    </dependencies>
+    <licenses>
+        <license tag="epl-v1.0" title="Eclipse Public License - v 1.0" url="http%3A%2F%2Fwww.eclipse.org%2Flegal%2Fepl-v10.html" file="licenses/epl-v10.txt"/>
+    </licenses>
+</project>

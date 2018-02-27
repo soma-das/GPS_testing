@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Json box" 
+    uuid="_jD1L8RL-EeePFq2ayaIgqg" 
+    status="under construction" 
+    type="block" 
+    >
+    <required>
+        <library path="lib/gson-2.2.4.jar"/>
+        <package name="gps.testing.jsonbox"/>
+    </required>
+</block>

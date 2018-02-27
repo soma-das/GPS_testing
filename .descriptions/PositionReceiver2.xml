@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<block
+    name="Position Receiver 2" 
+    author="Linda Ariani Gunawan" 
+    provider="Bitreactive AS" 
+    uuid="_gglMExL-EeePFq2ayaIgqg" 
+    status="under construction" 
+    type="system" 
+    >
+    <required>
+        <resource path="config/position.properties"/>
+        <package name="com.bitreactive.examples.amqp"/>
+        <package name="com.bitreactive.library.amqp"/>
+        <package name="com.bitreactive.library.amqp.brokeredamqpclient"/>
+        <package name="gps.testing.positionreceiver2.component"/>
+        <block name="b0" uuid="_cAiZ4aWJEeGtcaXYz8RSig"/>
+        <block name="b1" uuid="_FIKBk-j7EeSNq-4fvozafQ"/>
+        <block name="b2" uuid="_VA9jkRL9EeePFq2ayaIgqg"/>
+    </required>
+</block>
